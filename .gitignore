@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs / temp
+*.log
+*.tmp
+.cache/
+
+# Build artefacts (not part of the replication package)
+build/
+dist/
+
+# Large raw datasets that exceed GitHub's 100 MB/file limit.
+# These are auto-downloaded by the pipeline scripts:
+#   - data_raw/eer.csv  (278 MB)  -> downloaded by prepare_reer_controls.py
+#     from the BIS bulk data portal (BIS_BULK_EER_ZIP_URL).
+data_raw/eer.csv
