@@ -46,7 +46,7 @@ Generated datasets, intermediate outputs, and model results can be recreated by 
     │   └── master_sector_analysis.py
     └── outputs/
         └── figures/
-
+```
 ---
 
 ## 2. Quick Start
@@ -133,8 +133,3 @@ on first run.
 - The notebook is in **Thai**; variable names and code comments remain in
   English.
 
----
-
-## 6. License & Citation
-
-Add your preferred license (e.g. MIT, CC-BY) before publishing.
